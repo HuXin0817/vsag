@@ -391,7 +391,8 @@ float
 SimpleFlat::l2(const float* v1, const float* v2, int64_t dim) {
     float dist = 0;
     for (int64_t i = 0; i < dim; ++i) {
-        dist += std::pow(v1[i] - v2[i], 2);
+        const float d = v1[i] - v2[i];
+        dist += d * d;
     }
     return dist;
 }
