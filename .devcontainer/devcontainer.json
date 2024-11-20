@@ -1,0 +1,6 @@
+{
+    "image": "openanolis/anolisos:8.8",
+    "runArgs": [
+        "--privileged"
+    ]
+}
