@@ -1,5 +1,5 @@
 {
-    "image": "openanolis/anolisos:8.8",
+    "image": "openanolis/anolisos:latest",
     "runArgs": [
         "--privileged"
     ]
